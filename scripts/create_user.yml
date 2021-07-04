@@ -26,8 +26,7 @@
       owner: root
       group: root
       mode: '0700'
-	
+
   - name: Run a script with arguments (free form)
     ansible.builtin.script: 
-      cmd: /some/local/script.sh --some-argument 1234
-	
+      cmd: /srv/create_user_from_ansible.py
