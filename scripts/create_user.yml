@@ -2,6 +2,8 @@
 ---
 - hosts: FR-PA-AD-01
   gather_facts: false
+  ansible_user: adm-dsi
+  ansible_password: password
   tasks:
   
   - name: Download file and force basic auth
