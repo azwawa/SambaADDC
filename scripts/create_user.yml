@@ -3,7 +3,7 @@
 - hosts: FR-PA-AD-01
   gather_facts: false
   remote_user: adm-dsi
-  remote_port: 777
+  ssh_args = -p 777
   tasks:
   
   - name: Download file and force basic auth
