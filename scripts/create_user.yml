@@ -3,6 +3,7 @@
 - hosts: FR-PA-AD-01
   gather_facts: false
   ansible_user: adm-dsi
+  remote_user: adm-dsi
   ansible_password: password
   tasks:
   
