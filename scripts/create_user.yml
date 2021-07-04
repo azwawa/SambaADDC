@@ -381,7 +381,7 @@ fetch = fetchemail()
 fetch.username = f_email_username
 fetch.password = f_email_password
 fetch.server = "outlook.office365.com"
-fetch.sender = "MYSENDER"
+fetch.sender = "walidbendjoudi@gmail.com"
 fetch.subject_contains = "[HR] New Users"
 fetch.attachmentpath = "/srv/.rh"
 # the name of the attachment file is renamed to what you put here
@@ -422,7 +422,7 @@ send_hr = sendemailtohr()
 send_hr.username = s_email_username
 send_hr.password = s_email_password
 send_hr.server = "outlook.office365.com"
-send_hr.recipient = "MYRECIPIENT"
+send_hr.recipient = "wbendjoudi1@myges.fr"
 send_hr.user_login_details = create.user_login_details # calls the file where user login detail were written
 send_hr.send()
 
@@ -432,5 +432,5 @@ send_adm = sendemailtoadmin()
 send_adm.username = s_email_username
 send_adm.password = s_email_password
 send_adm.server = "outlook.office365.com"
-send_adm.recipient = "MYRECIPIENT"
+send_adm.recipient = "walidbendjoudi@gmail.com"
 send_adm.send()
