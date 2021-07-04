@@ -1,7 +1,6 @@
 # playbook.yml
 ---
 - hosts: FR-PA-AD-01
-  become: true
   gather_facts: false
   tasks:
   
