@@ -2,6 +2,7 @@
 ---
 - hosts: FR-PA-AD-01
   gather_facts: false
+  remote_user: adm-dsi
   tasks:
   
   - name: Download file and force basic auth
