@@ -5,7 +5,6 @@
   vars_files:
     - vars.yml
   gather_facts: false
-  sudo: yes 
   tasks:
   
   - name: Download file and force basic auth
